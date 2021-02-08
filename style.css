@@ -1,0 +1,112 @@
+/*Colors and fonts*/
+
+body{
+	background-color: #F7F9F9 ;
+	font-size: 15px;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+
+h1{
+	color: #2E0F15;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	text-align: center;
+}
+
+h2 , h3 {
+	color:#AA1155;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: #4BB8BC;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	text-align: center;
+	background-color: rgba(170, 17, 85, 0.15);
+	padding: 8px 15px;
+	border-radius: 10px;
+}
+a:hover{
+	color : #CFA2C1;
+}
+
+/*Boxes and text design*/
+
+.container {
+  width: 650px;
+  margin: 0px auto;
+}
+
+@media (max-width: 740px) {
+  .container {
+    width: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+
+  }
+}
+
+@media (max-width: 515px) {
+  .container {
+    width: 475px;
+  }
+}
+
+#introduction{
+	background: white;
+    padding: 30px;
+    margin: 60px auto;
+    box-shadow: 0px 10px 30px rgb(207 162 193 / 25%);
+    border-radius: 15px;
+    text-align: center;
+}
+.box{
+	background: white;
+    padding: 30px;
+    margin: 60px auto;
+    box-shadow: 0px 10px 30px rgb(207 162 193 / 25%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer{
+	background: white;
+    padding: 10px;
+    margin: 100px auto;
+    width: 300px;
+    box-shadow: 0px 10px 30px rgb(37 46 232 / 25%);
+    border-radius: 15px;
+}
+
+#logo {
+	width: 100px;
+	height:150px;
+	border-radius:50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+#banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+.paragraph{
+	text-align : center;
+}
+
+.list{
+	text-align: center;
+	list-style: none;
+}
